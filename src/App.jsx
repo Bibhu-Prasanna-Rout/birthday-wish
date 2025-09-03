@@ -211,7 +211,6 @@ export default function App() {
     song.volume = 0.8;
     setAudio(song);
 
-    // Try autoplay
     song.play().catch(() => {
       console.log("Autoplay blocked, will play on button click 🎶");
     });
@@ -243,7 +242,7 @@ export default function App() {
       <motion.div className="relative w-44 h-44 md:w-60 md:h-60 rounded-full p-1 bg-gradient-to-r from-pink-500 via-yellow-400 to-purple-500 animate-spin-slow">
         <div className="absolute inset-0 rounded-full bg-gradient-to-r from-pink-500 via-yellow-400 to-purple-500 blur-lg opacity-75"></div>
         <motion.img
-          src="/Bibhu 9.jpg"
+          src="/Khusii.jpg"
           alt="Birthday Girl"
           className="relative w-full h-full rounded-full object-cover border-4 border-white shadow-xl"
           initial={{ scale: 0, opacity: 0 }}
@@ -276,12 +275,12 @@ export default function App() {
 
       {/* Heading */}
       <motion.h1
-        className="text-4xl md:text-6xl font-extrabold mt-6 drop-shadow-lg"
+        className="text-sm md:text-6xl font-extrabold mt-6 drop-shadow-lg"
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ duration: 1.2, type: "spring" }}
       >
-        🎂 Advance Happy Birthday, <span className="text-yellow-300"> Me..😊 </span> 🎉
+        🎂 Advance Happy Birthday, <span className="text-yellow-300">𝓚𝓱𝓾𝓼𝓱𝓲 😊</span> 🎉
       </motion.h1>
 
       {/* Message */}

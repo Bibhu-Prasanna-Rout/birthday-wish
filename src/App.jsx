@@ -220,8 +220,6 @@ export default function App() {
   const playSong = () => {
     if (audio) audio.play();
   };
-
-  // ⭐ Sparkle generator
   const sparkles = Array.from({ length: 12 });
 
   return (
